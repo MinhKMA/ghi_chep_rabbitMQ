@@ -1,2 +1,2 @@
-# ghi_chep_rabbitMD
+# RabbitMQ 
 Getting Started with RabbitMQ
