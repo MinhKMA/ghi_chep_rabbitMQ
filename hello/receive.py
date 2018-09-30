@@ -1,7 +1,7 @@
 import os
 import pika
 
-url = os.environ.get('CLOUDAMQP_URL', 'amqp://admin:minhkma@192.168.100.65:5672/%2f')
+url = os.environ.get('CLOUDAMQP_URL', 'amqp://admin:minhkma@192.168.100.65:5672/admin_vhost')
 params = pika.URLParameters(url)
 connection = pika.BlockingConnection(params)
 channel = connection.channel()

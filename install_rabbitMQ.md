@@ -48,7 +48,8 @@ rabbitmq-plugins enable rabbitmq_management
 chown -R rabbitmq:rabbitmq /var/lib/rabbitmq/
 rabbitmqctl add_user admin minhkma
 rabbitmqctl set_user_tags admin administrator
-rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
+rabbitmqctl add_vhost admin_vhost
+rabbitmqctl set_permissions -p admin_vhost admin ".*" ".*" ".*"
 ```
 
 To access the administrative panel of RabbitMQ, use your favourite web browser and open the following URL.
