@@ -13,7 +13,7 @@ example2: To receive all logs from "minh":
 
 example3: Or if you want to hear only about "kma" logs:
 
-<img src="https://i.imgur.com/AubVO83.png>
+<img src="https://i.imgur.com/AubVO83.png">
 
 example4: You can create multiple bindings 
 
